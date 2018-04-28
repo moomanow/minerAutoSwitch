@@ -1,3 +1,3 @@
 #!/bin/bash
-java -jar ~/miner/minercontrolApp*.jar
+java -jar ~/minerAutoSwitch/minercontrolApp*.jar
 
