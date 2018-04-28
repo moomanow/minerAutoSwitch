@@ -1,0 +1,35 @@
+{
+        "workername": "worker",
+        "minerKey":"",
+        "autoStart":true,
+        "type": [
+                "nvida"
+        ],
+        "address": {
+                "BTC":"3B3uQUKrR4EHNpd56zkrkQFAWB6Erq3bTB",
+                "XVG":"DHNSZnuC9j9EHg1HR96LhRypgUHJ1ucJxn",
+                "BLAS":"BkzR6kGcsT3o8dXyYhyGibVVLz2mXHwuGF"
+                }
+        ,
+        "pools": [
+                "zpool"
+        ],
+        "alg": [
+                "hmq1725"
+                ,"blake2s"
+                ,"neoscrypt"
+                ,"x16r"
+                ,"phi"
+                ,"x17"
+                ,"lyra2v2"
+                ,"lyra2z"
+                ,"c11"
+                ,"x16s"
+                ,"xevan"
+                ,"timetravel"
+        ],
+        "coins": [
+                "XVG"
+                ,"BLAS"
+        ]
+}

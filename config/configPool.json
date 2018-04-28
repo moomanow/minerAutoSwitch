@@ -1,0 +1,30 @@
+[
+        {
+                "poolApi": "http://www.zpool.ca/api",
+                "name": "zpool",
+                "poolType": "yaamp",
+                "userFormat": "address",
+                "passwordFormat": "user.workerName+\",c=\"+coin",
+                "hostFormat": "(coin==\"BTC\"?pool.data.status[alg].name:pool.data.currencies[coin].algo)+\".mine.zpool.ca\"",
+                "portFormat": "coin==\"BTC\"?pool.data.status[alg].port:pool.data.currencies[coin].port",
+                "multiplyAlg":{
+                                "blake2s":0.0001,
+                                "scrypt":0.0001,
+                                "decred":0.0001
+                        }
+        },
+        {
+                "poolApi": "http://api.zergpool.com:8080/api",
+                "name": "zergpool",
+                "poolType": "yaamp",
+                "userFormat": "address",
+                "passwordFormat": "user.workerName+\",c=\"+coin",
+                "hostFormat": "(coin==\"BTC\"?pool.data.status[alg].name:pool.data.currencies[coin].algo)+\".mine.zergpool.com\"",
+                "portFormat": "coin==\"BTC\"?pool.data.status[alg].port:pool.data.currencies[coin].port",
+                "multiplyAlg":{
+                                "blake2s":0.0001,
+                                "scrypt":0.0001,
+                                "decred":0.0001
+                        }
+        }
+]
